@@ -1,0 +1,128 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+   /*  border: solid 3px red; */
+    flex-wrap: wrap;
+}
+
+.gallery {
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c5b6c;
+    flex-direction: row;
+}
+
+h1{
+    margin-bottom: 4%;
+}
+
+.line1{
+    background-color: #4c5b6c;
+    color: #d0cdc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6%;
+}
+
+.gallery2 {
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667579;
+    flex-direction: row-reverse;
+}
+
+.line2{
+    background-color: #667579;
+    color: #d0cdc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6%;
+}
+
+.gallery3{
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #717171;
+    flex-direction: row;
+}
+
+
+.line3{
+    background-color: #717171;
+    color: #d0cdc9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 6%;
+}
+
+.gallery4{
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c5b6c;
+    flex-direction: row-reverse;
+}
+
+
+.gallery5{
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667579;
+    flex-direction: row;
+}
+
+.gallery6{
+    height: 20rem;
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #717171;
+    flex-direction: row-reverse;
+}
+
+
+.img1{
+    width: 100%;
+    height: 20rem;
+}
+
+.img{
+    background-color: #4c5b6c;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-grow: 2;
+} 
+
+div{
+    transition: 1.1s;
+}
+
+div:hover{
+    transform: scale(1.2);
+}
+
+
+
+
